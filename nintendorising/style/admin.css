@@ -1,0 +1,49 @@
+body			{	background: url("../style/GreenBG1680.png") repeat-y;
+					font-family: "Arial", "Helvetica", sans-serif;	}
+
+div#main		{	width: 768px;
+					background: white;
+					border: 2px solid rgb(0,128,0);
+					margin: 8px auto;
+					padding: 8px 12px;
+				}
+
+h1				{	font-weight: bold;
+					font-size: 1.4em;
+					padding: 0px;
+					color: rgb(0,64,0);
+					border-bottom: 2px solid rgb(64,128,64);
+				}
+				
+h2				{	font-weight: bold;
+					font-size: 1.2em;
+					padding: 0px;
+					color: rgb(0,64,0);
+					border-bottom: 1px solid rgb(128,192,128);
+				}
+				
+label			{	width: 192px;
+					display: inline-block;
+					margin-left: 8px;
+				}
+
+button			{	width: 128px; }
+
+input			{	width: 250px; }
+
+a.menu			{	padding: 2px 4px;
+					margin: 2px 0px;
+					border-bottom: 1px solid rgb(64,128,64);
+					color: rgb(0,64,0);
+					text-decoration: none;
+					height: 1.2em;
+					display: block;
+				}
+				
+a.menu:visited	{	color: rgb(0,64,0);	}
+
+a.menu:active	{	color: rgb(0,64,0);	}
+
+a.menu:hover	{	background: rgb(192,255,192);
+					color: rgb(0,128,0);
+				}

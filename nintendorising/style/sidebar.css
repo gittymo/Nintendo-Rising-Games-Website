@@ -1,0 +1,50 @@
+div#sideBar				{	width: 216px;
+							margin: 0px;
+							border: none;
+							padding: 0px;
+							padding-right: 9px;
+							float: right;
+						}
+
+div#sidebar	h1			{	width: 200px;
+							background: url("/nintendorising/style/sideBoxHeaderBG.png") no-repeat;
+						}
+						
+div.sideBox				{	width: 216px;
+							padding: none;
+							margin: 0px 4px 8px 8px;
+							vertical-align: top;
+							font-family: "Arial", "Helvetica", sans-serif;
+						}
+						
+div.forumEntry			{	border: solid 2px rgb(128,128,128);
+							margin: 0px 0px 2px 0px;
+							padding: 2px 6px;
+							background: url("/nintendorising/style/forumButtonLinkBG.png") repeat-x;
+							font-size: 0.8em;
+						}
+
+div.sideBox	div.forumEntry:hover	{	background: url("/nintendorising/style/forumButtonLinkBGHover.png") repeat-x; }
+
+div.sidebox	div.forumEntry	a		{	font-weight: bold;
+										margin: 0px 0px 4px 0px;
+										padding: 0px;
+										text-decoration: underline;
+									}
+						
+div.sidebox	div.forumEntry	a:link	{	color: rgb(40, 80, 255); }
+						
+div.sidebox	div.forumEntry	a:visited	{	color: rgb(40, 80, 255); }
+						
+div.sidebox	div.forumEntry	a:hover	{	color: rgb(255, 80, 40); }
+
+div#loginBox			{	border-style: solid 2px rgb(128,128,128);
+							margin: 0px 0px 2px 0px;
+							padding: 2px 6px 4px 6px;
+							background: rgb(224,224,224);
+							font-size: 0.8em;
+						}
+						
+div#loginBox label		{	width: 6em;
+							margin-left: 3px	}
+div#loginBox input		{	width: 10em;	}
